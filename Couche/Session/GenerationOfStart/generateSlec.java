@@ -32,10 +32,10 @@ public class generateSlec {
     public static void main(String[] args) throws IOException {}
     public static void RandomData() throws IOException {
         //Erase("test.txt");
-        Erase("Couche/Session/S_lec.txt");
+        Erase("src/Couche/Session/S_lec.txt");
         // create new text file and write some text to it and then read it
         //File file = new File("test.txt");
-        File file = new File("Couche/Session/S_lec.txt");
+        File file = new File("src/Couche/Session/S_lec.txt");
         file.createNewFile();
 
 

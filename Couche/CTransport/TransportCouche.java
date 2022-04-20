@@ -4,8 +4,8 @@ import Enum.state;
 import Couche.CReseaux.Reseaux;
 import Outil.fileUtility;
 import Primitive.*;
-import org.jetbrains.annotations.NotNull;
-import org.jetbrains.annotations.Nullable;
+//import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.Nullable;
 
 import java.util.ArrayList;
 import java.util.concurrent.atomic.AtomicReference;
@@ -34,9 +34,9 @@ public class TransportCouche {
     }
 
     public static void ResetData() {
-        fileUtility.Erase("Couche/Session/S_ecr.txt");
-        fileUtility.Erase("Couche/LiasonDonnee/L_ecr.txt");
-        fileUtility.Erase("Couche/LiasonDonnee/L_lec.txt");
+        fileUtility.Erase("src/Couche/Session/S_ecr.txt");
+        fileUtility.Erase("src/Couche/LiasonDonnee/L_ecr.txt");
+        fileUtility.Erase("src/Couche/LiasonDonnee/L_lec.txt");
     }
 
     /**
@@ -46,7 +46,7 @@ public class TransportCouche {
      */
     public void DemarrerCommunication() {
         //lire tous les transaction et les stoker dans un list
-        ArrayList<String> transactions = fileUtility.Read("Couche/Session/S_lec.txt");
+        ArrayList<String> transactions = fileUtility.Read("src/Couche/Session/S_lec.txt");
 
         /*
 
@@ -67,7 +67,7 @@ public class TransportCouche {
       cette methode pemet de gerer une transaction(chaque ligne) du fichier S_lec
       en ulitisent le mot cle "synchronized",pour permet de gerer les threads en mode Synchronisation
      */
-    public synchronized void gererTransactions(@NotNull String transaction) throws InterruptedException {
+    public synchronized void gererTransactions( String transaction) throws InterruptedException {
         sleep(0xaL);
 
         String appSource = transaction.split(" {7}", 4)[0];
@@ -91,7 +91,7 @@ public class TransportCouche {
                 String msg_to_S_ecr = communication.getAppSource() + " "+"est déconnecté du "+ " " + communication.getAppDestination() + "\n"+
                         ", Raison: disconnected Closed by Client \n";
                 
-                fileUtility.write(msg_to_S_ecr, "Couche/Session/S_ecr.txt");
+                fileUtility.write(msg_to_S_ecr, "src/Couche/Session/S_ecr.txt");
             }
             return;
         }//si le type de transation est envoyer le data ou demande de connexion
@@ -137,8 +137,8 @@ public class TransportCouche {
     }
 
     //une methode pour recevoir les Primitives et id de couche reseau
-    public void lire_de_reseau(int id, @NotNull Primitive p) {
-        String Filepath = "Couche/Session/S_ecr.txt";
+    public void lire_de_reseau(int id,  Primitive p) {
+        String Filepath = "src/Couche/Session/S_ecr.txt";
 
         if (p.getClass() == NDisconnectInd.class) { //si c'est une primitive NDisconnectInd
 
@@ -200,7 +200,7 @@ public class TransportCouche {
     }
 
     //    une methode qui premet de trouver un object Communication par l'ideantifiant d'extremite
-    private @Nullable Communication rechercheCommunication(int id)
+    private  Communication rechercheCommunication(int id)
     {
         return switch (TCT.size()) {
             case 0 -> null;

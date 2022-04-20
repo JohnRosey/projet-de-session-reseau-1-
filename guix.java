@@ -38,10 +38,10 @@ System.out.println("here");
         S_ecr.setText("");
         L_ecr.setText("");
         L_lec.setText("");
-        fileUtility.Erase("Couche/Session/S_ecr.txt");
-        fileUtility.Erase("Couche/LiasonDonnee/L_ecr.txt");
-        fileUtility.Erase("Couche/LiasonDonnee/L_lec.txt");
-        fileUtility.Erase("Couche/Session/S_lec.txt");
+        fileUtility.Erase("src/Couche/Session/S_ecr.txt");
+        fileUtility.Erase("src/Couche/LiasonDonnee/L_ecr.txt");
+        fileUtility.Erase("src/Couche/LiasonDonnee/L_lec.txt");
+        fileUtility.Erase("src/Couche/Session/S_lec.txt");
         System.out.println("erase");
     }
 
@@ -49,10 +49,10 @@ System.out.println("here");
         try
         {
             //Probleme ici vous devez ccliquer 2 fois sur le bouton pour lancer la communication
-            FileReader reader = new FileReader( "Couche/Session/S_lec.txt" );
-            FileReader reader2 = new FileReader( "Couche/Session/S_ecr.txt" );
-            FileReader reader3 = new FileReader( "Couche/LiasonDonnee/L_ecr.txt" );
-            FileReader reader4 = new FileReader( "Couche/LiasonDonnee/L_lec.txt" );
+            FileReader reader = new FileReader( "src/Couche/Session/S_lec.txt" );
+            FileReader reader2 = new FileReader( "src/Couche/Session/S_ecr.txt" );
+            FileReader reader3 = new FileReader( "src/Couche/LiasonDonnee/L_ecr.txt" );
+            FileReader reader4 = new FileReader( "src/Couche/LiasonDonnee/L_lec.txt" );
             BufferedReader br2 = new BufferedReader( reader2 );
             BufferedReader br = new BufferedReader(reader);
             BufferedReader br3 = new BufferedReader(reader3);
@@ -92,7 +92,7 @@ System.out.println("here");
                         "1234        22          CONECT      UNDERCORVER\n" +
                         "22          1234        DATA        hello\n" +
                         "22          1234        LIB" ;
-        File filepath= new File("Couche/Session/S_lec.txt");
+        File filepath= new File("src/Couche/Session/S_lec.txt");
 
         try{
             if(!filepath.exists()) {
@@ -181,12 +181,12 @@ fileWriter.close();
         this.button3.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-               // button3MouseClicked(e);
                 try {
                     button3MouseClicked(e);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
+                //button3MouseClicked(e);
             }
         });
 
@@ -204,11 +204,11 @@ fileWriter.close();
         //======== panel1 ========
         {
             this.panel1.setBorder(new SoftBevelBorder(SoftBevelBorder.LOWERED));
-            this.panel1.setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing. border. EmptyBorder( 0
-            , 0, 0, 0) , "JFor\u006dDesi\u0067ner \u0045valu\u0061tion", javax. swing. border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM
-            , new java .awt .Font ("Dia\u006cog" ,java .awt .Font .BOLD ,12 ), java. awt. Color. red) ,
-            this.panel1. getBorder( )) ); this.panel1. addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override public void propertyChange (java .beans .PropertyChangeEvent e
-            ) {if ("bord\u0065r" .equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
+            this.panel1.setBorder ( new javax . swing. border .CompoundBorder ( new javax . swing. border .TitledBorder ( new javax . swing. border .EmptyBorder (
+            0, 0 ,0 , 0) ,  "JFor\u006dDesi\u0067ner \u0045valu\u0061tion" , javax. swing .border . TitledBorder. CENTER ,javax . swing. border .TitledBorder
+            . BOTTOM, new java. awt .Font ( "Dia\u006cog", java .awt . Font. BOLD ,12 ) ,java . awt. Color .
+            red ) ,this.panel1. getBorder () ) ); this.panel1. addPropertyChangeListener( new java. beans .PropertyChangeListener ( ){ @Override public void propertyChange (java .
+            beans. PropertyChangeEvent e) { if( "bord\u0065r" .equals ( e. getPropertyName () ) )throw new RuntimeException( ) ;} } );
 
             //======== scrollPane2 ========
             {
@@ -322,7 +322,7 @@ fileWriter.close();
                             .addComponent(this.label2, GroupLayout.PREFERRED_SIZE, 16, GroupLayout.PREFERRED_SIZE)
                             .addGap(30, 30, 30)
                             .addComponent(this.button4)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 353, Short.MAX_VALUE)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(this.label4)
                             .addGap(123, 123, 123)
                             .addComponent(this.button3)
@@ -335,11 +335,11 @@ fileWriter.close();
                                     .addComponent(this.label1)
                                     .addGap(359, 359, 359)
                                     .addComponent(this.label3, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)))
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 107, Short.MAX_VALUE)))
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
                             .addComponent(this.button1)
-                            .addContainerGap(140, Short.MAX_VALUE))
+                            .addContainerGap(GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
                             .addGap(0, 0, Short.MAX_VALUE)
                             .addComponent(this.button2)

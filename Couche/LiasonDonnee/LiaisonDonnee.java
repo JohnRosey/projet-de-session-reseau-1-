@@ -9,7 +9,7 @@ import Paquet.*;
 //definir un classe qui presenter la couche de liason de donnee
 
 public class LiaisonDonnee {
-    private final String pathLlec = "Couche/LiasonDonnee/L_lec.txt";
+    private final String pathLlec = "src/Couche/LiasonDonnee/L_lec.txt";
     private Reseaux reseaux;
 
 
@@ -17,7 +17,7 @@ public class LiaisonDonnee {
     public void gestionPaquets(Paquet p) {
 
 //        simuler l'envoie des paqeut par ecrire dan le fichier L_ecr
-        fileUtility.write("Envoi du " + p.toString(), "Couche/LiasonDonnee/L_ecr.txt");
+        fileUtility.write("Envoi du " + p.toString(), "src/Couche/LiasonDonnee/L_ecr.txt");
 
         //lancer le processus aleatoire pour simuler le reponde de diatant
         processusAleatoire(p);

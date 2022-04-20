@@ -1,19 +1,17 @@
-1234 a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 225 }
-1234 a réussi à se connecter au  22, adresse de provenance: 225, adresse destination: 69 Etat: connexion_etablie
-Brave a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 5 }
-Brave a réussi à se connecter au Edge, adresse de provenance: 5, adresse destination: 214 Etat: connexion_etablie
-22 a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 170 }
-22 a réussi à se connecter au    1234, adresse de provenance: 170, adresse destination: 203 Etat: connexion_etablie
-Edge a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 214 }
-Edge a réussi à se connecter au Brave, adresse de provenance: 214, adresse destination: 5 Etat: connexion_etablie
-Firefox a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 185 }
-Firefox a réussi à se connecter au Brave, adresse de provenance: 185, adresse destination: 5 Etat: connexion_etablie
-Edge a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 214 }
-Edge a réussi à se connecter au Chrome, adresse de provenance: 214, adresse destination: 103 Etat: connexion_etablie
-Chrome a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 103 }
-Chrome a réussi à se connecter au Firefox, adresse de provenance: 103, adresse destination: 185 Etat: connexion_etablie
-Firefox a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 185 }
-Firefox a réussi à se connecter au Edge, adresse de provenance: 185, adresse destination: 214 Etat: connexion_etablie
-Firefox est déconnecté du  Edge
+Google.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 99 }
+Google.exe a réussi à se connecter au reddit.exe, adresse de provenance: 99, adresse destination: 42 Etat: connexion_etablie
+Google.exe est déconnecté du  reddit.exe
 , Raison: disconnected Closed by Client 
 
+Snapchat.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 137 }
+Snapchat.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 137, adresse destination: 51 Etat: connexion_etablie
+Microsoft.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 55 }
+Microsoft.exe a réussi à se connecter au Ads.exe, adresse de provenance: 55, adresse destination: 119 Etat: connexion_etablie
+Microsoft.exe est déconnecté du  Ads.exe
+, Raison: disconnected Closed by Client 
+
+Snapchat.exe est déconnecté du  Firebase.exe
+, Raison: disconnected Closed by Client 
+
+Microsoft.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 55 }
+Microsoft.exe a réussi à se connecter au Ads.exe, adresse de provenance: 55, adresse destination: 119 Etat: connexion_etablie
