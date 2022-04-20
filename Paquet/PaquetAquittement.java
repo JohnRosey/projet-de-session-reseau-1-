@@ -9,6 +9,6 @@ public class PaquetAquittement extends Paquet{
 
     @Override
     public String toString() {
-        return "{ numero de connexion = " + getNumeroConnexion()+", typePaquet = "+getTypePaquet() + " }";
+        return "{ numero de connexion = " + getNumeroConnexion()+", typeDePaquet = "+getTypePaquet() + " }";
     }
 }

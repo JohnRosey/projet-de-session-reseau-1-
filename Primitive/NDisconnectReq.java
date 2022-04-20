@@ -17,7 +17,7 @@ public class NDisconnectReq extends Primitive{
 
     @Override
     public String toString() {
-        return "NDisconnectReq { " +
+        return " Primitive : N_Disconnect.Req { " +
                 " adresseReponse = " + adresseReponse +
                 " }";
     }

@@ -2,19 +2,19 @@ package Primitive;
 
 public class NConnectConf extends Primitive{
 
-    private final int adrReponde;
+    private final int adresseReponse;
 
 
-    public NConnectConf(int adrReponde) {
-        this.adrReponde = adrReponde;
+    public NConnectConf(int adresseReponse) {
+        this.adresseReponse = adresseReponse;
     }
 
 
 
     @Override
     public String toString() {
-        return "NConnectConf { " +
-                " adrReponde = " + adrReponde +
+        return " Primitive :N_Connect.Conf { " +
+                " adresseReponse = " + adresseReponse +
                 " }";
     }
 }

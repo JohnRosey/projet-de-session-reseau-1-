@@ -1,22 +1,16 @@
-Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 63 }
-Linkedin.exe a réussi à se connecter au Ads.exe, adresse source: 63, adresse destination: 161 Etat: connexion_etablie
-Whatsapp.exe a recu la primitive NDisconnectInd {  adrReponde = 228, raison = la demande ne reçoit pas de réponse }
-Whatsapp.exe{adresse: 228} déconnecté du Costco.exe{adresse: 221}, Raison: la demande ne reçoit pas de réponse
-Snapchat.exe a recu la primitive NConnectConf {  adrReponde = 157 }
-Snapchat.exe a réussi à se connecter au MongoDB.exe, adresse source: 157, adresse destination: 46 Etat: connexion_etablie
-Google.exe a recu la primitive NConnectConf {  adrReponde = 89 }
-Google.exe a réussi à se connecter au Firebase.exe, adresse source: 89, adresse destination: 71 Etat: connexion_etablie
-Linkedin.exe déconnecté du Ads.exe
+Google.exe a recu la primitive NConnectConf {  adrReponde = 157 }
+Google.exe a réussi à se connecter au Pintrest.exe, adresse source: 157, adresse destination: 6 Etat: connexion_etablie
+Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 170 }
+Linkedin.exe a réussi à se connecter au Firebase.exe, adresse source: 170, adresse destination: 236 Etat: connexion_etablie
+Microsoft.exe a recu la primitive NDisconnectInd {  adrReponde = 133, raison = la demande ne reçoit pas de réponse }
+Microsoft.exe{adresse: 133} déconnecté du reddit.exe{adresse: 182}, Raison: la demande ne reçoit pas de réponse
+Facebook.exe a recu la primitive NConnectConf {  adrReponde = 229 }
+Facebook.exe a réussi à se connecter au Walmart.exe, adresse source: 229, adresse destination: 173 Etat: connexion_etablie
+Amazon.exe a recu la primitive NConnectConf {  adrReponde = 99 }
+Amazon.exe a réussi à se connecter au Ads.exe, adresse source: 99, adresse destination: 112 Etat: connexion_etablie
+Whatsapp.exe a recu la primitive NConnectConf {  adrReponde = 233 }
+Whatsapp.exe a réussi à se connecter au Firebase.exe, adresse source: 233, adresse destination: 236 Etat: connexion_etablie
+Whatsapp.exe déconnecté du Firebase.exe
 , Raison: ET demander la liberation
-Snapchat.exe déconnecté du MongoDB.exe
-, Raison: ET demander la liberation
-Youtube.exe a recu la primitive NConnectConf {  adrReponde = 211 }
-Youtube.exe a réussi à se connecter au AWS.exe, adresse source: 211, adresse destination: 97 Etat: connexion_etablie
-Twitter.exe a recu la primitive NConnectConf {  adrReponde = 112 }
-Twitter.exe a réussi à se connecter au Pintrest.exe, adresse source: 112, adresse destination: 184 Etat: connexion_etablie
-Twitter.exe déconnecté du Pintrest.exe
-, Raison: ET demander la liberation
-Snapchat.exe a recu la primitive NConnectConf {  adrReponde = 157 }
-Snapchat.exe a réussi à se connecter au MongoDB.exe, adresse source: 157, adresse destination: 46 Etat: connexion_etablie
-Youtube.exe déconnecté du AWS.exe
-, Raison: ET demander la liberation
+Gmail.exe a recu la primitive NDisconnectInd {  adrReponde = 104, raison = refus de connexion de la part du distant }
+Gmail.exe{adresse: 104} déconnecté du Ebay.exe{adresse: 136}, Raison: refus de connexion de la part du distant

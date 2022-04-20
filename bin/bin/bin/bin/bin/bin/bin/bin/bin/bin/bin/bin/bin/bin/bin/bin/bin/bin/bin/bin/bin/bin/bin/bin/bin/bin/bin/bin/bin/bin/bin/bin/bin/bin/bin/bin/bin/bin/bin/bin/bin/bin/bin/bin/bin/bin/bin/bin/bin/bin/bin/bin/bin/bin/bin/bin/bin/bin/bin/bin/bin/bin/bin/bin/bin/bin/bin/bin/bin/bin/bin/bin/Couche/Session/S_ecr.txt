@@ -1,16 +1,18 @@
-Google.exe a recu la primitive NConnectConf {  adrReponde = 157 }
-Google.exe a réussi à se connecter au Pintrest.exe, adresse source: 157, adresse destination: 6 Etat: connexion_etablie
-Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 170 }
-Linkedin.exe a réussi à se connecter au Firebase.exe, adresse source: 170, adresse destination: 236 Etat: connexion_etablie
-Microsoft.exe a recu la primitive NDisconnectInd {  adrReponde = 133, raison = la demande ne reçoit pas de réponse }
-Microsoft.exe{adresse: 133} déconnecté du reddit.exe{adresse: 182}, Raison: la demande ne reçoit pas de réponse
-Facebook.exe a recu la primitive NConnectConf {  adrReponde = 229 }
-Facebook.exe a réussi à se connecter au Walmart.exe, adresse source: 229, adresse destination: 173 Etat: connexion_etablie
-Amazon.exe a recu la primitive NConnectConf {  adrReponde = 99 }
-Amazon.exe a réussi à se connecter au Ads.exe, adresse source: 99, adresse destination: 112 Etat: connexion_etablie
-Whatsapp.exe a recu la primitive NConnectConf {  adrReponde = 233 }
-Whatsapp.exe a réussi à se connecter au Firebase.exe, adresse source: 233, adresse destination: 236 Etat: connexion_etablie
-Whatsapp.exe déconnecté du Firebase.exe
-, Raison: ET demander la liberation
-Gmail.exe a recu la primitive NDisconnectInd {  adrReponde = 104, raison = refus de connexion de la part du distant }
-Gmail.exe{adresse: 104} déconnecté du Ebay.exe{adresse: 136}, Raison: refus de connexion de la part du distant
+1234 a recu la primitive NDisconnectInd {  adrReponde = 143, raison = refus de connexion de la part du distant }
+1234{adresse: 143} déconnecté du  22{adresse: 9}, Raison: refus de connexion de la part du distant
+Chrome a recu la primitive NConnectConf {  adrReponde = 131 }
+Chrome a réussi à se connecter au Firefox, adresse source: 131, adresse destination: 233 Etat: connexion_etablie
+22 a recu la primitive NConnectConf {  adrReponde = 161 }
+22 a réussi à se connecter au    1234, adresse source: 161, adresse destination: 3 Etat: connexion_etablie
+Firefox a recu la primitive NConnectConf {  adrReponde = 233 }
+Firefox a réussi à se connecter au Edge, adresse source: 233, adresse destination: 23 Etat: connexion_etablie
+1234 a recu la primitive NDisconnectInd {  adrReponde = 143, raison = refus de connexion de la part du distant }
+1234{adresse: 143} déconnecté du  22{adresse: 9}, Raison: refus de connexion de la part du distant
+Brave a recu la primitive NConnectConf {  adrReponde = 75 }
+Brave a réussi à se connecter au Edge, adresse source: 75, adresse destination: 23 Etat: connexion_etablie
+Firefox a recu la primitive NConnectConf {  adrReponde = 233 }
+Firefox a réussi à se connecter au Brave, adresse source: 233, adresse destination: 75 Etat: connexion_etablie
+Edge a recu la primitive NConnectConf {  adrReponde = 23 }
+Edge a réussi à se connecter au Brave, adresse source: 23, adresse destination: 75 Etat: connexion_etablie
+Edge a recu la primitive NConnectConf {  adrReponde = 23 }
+Edge a réussi à se connecter au Chrome, adresse source: 23, adresse destination: 131 Etat: connexion_etablie

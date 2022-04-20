@@ -30,7 +30,7 @@ public class Paquet {
     public String toString() {
         return
                 " numeroConnexion= " + numeroConnexion +
-                ", typePaquet= " + typePaquet ;
+                ", typeDePaquet= " + typePaquet ;
 
     }
 }

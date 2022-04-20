@@ -38,7 +38,7 @@ public class LiaisonDonnee {
     private void reponseConnexionAleatoire(Paquet p) {
 
 //        la demande ne reçoit pas de réponse si l’adresse de la station source est un multiple de 19;
-        if (((PaquetAppel) p).getAdrSource() % 19 == 0) {
+        if (((PaquetAppel) p).getAdresseSource() % 19 == 0) {
 
 //            Paquet null pour signifier que le reseaux ne recoit pas de reponde,
 //            null pour simuler une temporisation
@@ -50,11 +50,11 @@ public class LiaisonDonnee {
 
 //        le paquet reçu en réponse est un refus de connexion de la part du distant
 //        si l’adresse de la station source est un multiple de 13;
-        else if (((PaquetAppel) p).getAdrSource() % 13 == 0) {
+        else if (((PaquetAppel) p).getAdresseSource() % 13 == 0) {
 
 //            reseaux va recevoir un paquet indication liberation
             PaquetIndLiberation paquetIndLiberation = new PaquetIndLiberation(
-                    p.getNumeroConnexion(), "00010011", ((PaquetAppel) p).getAdrSource(),
+                    p.getNumeroConnexion(), "00010011", ((PaquetAppel) p).getAdresseSource(),
                     ((PaquetAppel) p).getAdrDestination(), "00000001"
             );
 
@@ -67,7 +67,7 @@ public class LiaisonDonnee {
 //          reseaux va recevoir un paquet Communication Etablie
             PaquetCommunicationEtablie paquetCommunicationEtablie = new PaquetCommunicationEtablie(
                     p.getNumeroConnexion(), "00001111",
-                    ((PaquetAppel) p).getAdrSource(), ((PaquetAppel) p).getAdrDestination()
+                    ((PaquetAppel) p).getAdresseSource(), ((PaquetAppel) p).getAdrDestination()
             );
 
 //            reseaux paquet communication établie

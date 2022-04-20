@@ -27,7 +27,7 @@ public class NDisconnectInd extends Primitive{
 
     @Override
     public String toString() {
-        return "NDisconnectInd { " +
+        return " Primitive : N_Disconnect.Ind { " +
                 " adresseReponse = " + adresseReponse +
                 ", raison = " + raison +
                 " }";

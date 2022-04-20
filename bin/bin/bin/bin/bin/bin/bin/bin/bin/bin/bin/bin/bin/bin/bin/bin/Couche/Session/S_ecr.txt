@@ -1,0 +1,39 @@
+Microsoft.exe a recu la primitive NDisconnectInd {  adresseReponse = 243, raison = refus par  le Serveur }
+Microsoft.exe{adresse: 243} déconnecté du reddit.exeadresse de provenance 192, Raison: refus par  le Serveur
+Gmail.exe a recu la primitive NConnectConf {  adrReponde = 98 }
+Gmail.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 98, adresse destination: 136 Etat: connexion_etablie
+Google.exe a recu la primitive NConnectConf {  adrReponde = 159 }
+Google.exe a réussi à se connecter au Ads.exe, adresse de provenance: 159, adresse destination: 86 Etat: connexion_etablie
+Twitter.exe a recu la primitive NConnectConf {  adrReponde = 110 }
+Twitter.exe a réussi à se connecter au Ads.exe, adresse de provenance: 110, adresse destination: 86 Etat: connexion_etablie
+Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 35 }
+Linkedin.exe a réussi à se connecter au AWS.exe, adresse de provenance: 35, adresse destination: 23 Etat: connexion_etablie
+Instagram.exe a recu la primitive NConnectConf {  adrReponde = 241 }
+Instagram.exe a réussi à se connecter au MongoDB.exe, adresse de provenance: 241, adresse destination: 231 Etat: connexion_etablie
+Instagram.exe est déconnecté du  MongoDB.exe
+, Raison: disconnected Closed by Client 
+
+Instagram.exe a recu la primitive NConnectConf {  adrReponde = 241 }
+Instagram.exe a réussi à se connecter au MongoDB.exe, adresse de provenance: 241, adresse destination: 231 Etat: connexion_etablie
+Gmail.exe est déconnecté du  Firebase.exe
+, Raison: disconnected Closed by Client 
+
+Amazon.exe a recu la primitive NConnectConf {  adrReponde = 184 }
+Amazon.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 184, adresse destination: 136 Etat: connexion_etablie
+Gmail.exe a recu la primitive NConnectConf {  adrReponde = 98 }
+Gmail.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 98, adresse destination: 136 Etat: connexion_etablie
+Whatsapp.exe a recu la primitive NConnectConf {  adrReponde = 109 }
+Whatsapp.exe a réussi à se connecter au Target.exe, adresse de provenance: 109, adresse destination: 73 Etat: connexion_etablie
+Microsoft.exe a recu la primitive NDisconnectInd {  adresseReponse = 243, raison = refus par  le Serveur }
+Microsoft.exe{adresse: 243} déconnecté du reddit.exeadresse de provenance 192, Raison: refus par  le Serveur
+Google.exe est déconnecté du  Ads.exe
+, Raison: disconnected Closed by Client 
+
+Amazon.exe est déconnecté du  Firebase.exe
+, Raison: disconnected Closed by Client 
+
+Linkedin.exe est déconnecté du  AWS.exe
+, Raison: disconnected Closed by Client 
+
+Amazon.exe a recu la primitive NConnectConf {  adrReponde = 184 }
+Amazon.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 184, adresse destination: 136 Etat: connexion_etablie

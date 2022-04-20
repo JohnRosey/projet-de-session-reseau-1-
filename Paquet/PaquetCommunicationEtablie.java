@@ -27,9 +27,9 @@ public class PaquetCommunicationEtablie extends Paquet{
 
     @Override
     public String toString() {
-        return "PaquetCommunicationEtablie { " +
+        return "PaquetDeCommunicationEtablie { " +
                 super.toString()+
-                " adrSource = " + adrSource +
+                " adresseSource = " + adrSource +
                 ", adrDestination = " + adrDestination +
                 " }";
     }

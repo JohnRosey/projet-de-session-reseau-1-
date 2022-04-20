@@ -2,21 +2,21 @@ package Paquet;
 
 
 public class PaquetAppel extends Paquet{
-    private int adrSource,adrDestination;
+    private int adresseSource,adrDestination;
 
 
-    public PaquetAppel(int numeroConnexion, String typePaquet, int adrSource, int adrDestination) {
+    public PaquetAppel(int numeroConnexion, String typePaquet, int adresseSource, int adrDestination) {
         super(numeroConnexion, typePaquet);
-        this.adrSource = adrSource;
+        this.adresseSource = adresseSource;
         this.adrDestination = adrDestination;
     }
 
-    public int getAdrSource() {
-        return adrSource;
+    public int getAdresseSource() {
+        return adresseSource;
     }
 
-    public void setAdrSource(int adrSource) {
-        this.adrSource = adrSource;
+    public void setAdresseSource(int adresseSource) {
+        this.adresseSource = adresseSource;
     }
 
     public int getAdrDestination() {
@@ -29,9 +29,9 @@ public class PaquetAppel extends Paquet{
 
     @Override
     public String toString() {
-        return  "PaquetAppel { " +
+        return  "Paquet d'Appel { " +
                 super.toString()+
-                " adrSource = " + adrSource +
+                " adresseSource = " + adresseSource +
                 ", adrDestination = " + adrDestination +
                 " }";
     }

@@ -1,0 +1,12 @@
+Envoi du PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 125, adrDestination = 90 }
+Envoi du PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 148, adrDestination = 121 }
+Envoi du PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 186, adrDestination = 104 }
+Envoi du PaquetAppel {  numeroConnexion= 4, typePaquet= 00001011 adrSource = 104, adrDestination = 64 }
+Envoi du PaquetDonnee {  numeroConnexion= 3, typePaquet= 00000000 donnee = my enemey }
+Envoi du PaquetAppel {  numeroConnexion= 5, typePaquet= 00001011 adrSource = 104, adrDestination = 64 }
+Envoi du PaquetAppel {  numeroConnexion= 6, typePaquet= 00001011 adrSource = 64, adrDestination = 186 }
+Envoi du PaquetDonnee {  numeroConnexion= 6, typePaquet= 00000000 donnee = y6546¬¦¤¢¬345432 }
+Envoi du PaquetAppel {  numeroConnexion= 7, typePaquet= 00001011 adrSource = 111, adrDestination = 64 }
+Envoi du PaquetAppel {  numeroConnexion= 8, typePaquet= 00001011 adrSource = 64, adrDestination = 111 }
+Envoi du PaquetDonnee {  numeroConnexion= 8, typePaquet= 00000000 donnee = nice }
+Envoi du PaquetAppel {  numeroConnexion= 9, typePaquet= 00001011 adrSource = 104, adrDestination = 111 }

@@ -3,6 +3,7 @@ import java.awt.event.*;
 import Couche.CTransport.TransportCouche;
 import Couche.Session.GenerationOfStart.Generer;
 import Couche.Session.GenerationOfStart.generateSlec;
+import Outil.fileUtility;
 
 import javax.swing.*;
 import java.awt.event.MouseAdapter;
@@ -20,6 +21,7 @@ import java.io.*;
 public class guix extends JFrame {
     public guix() {
         initComponents();
+        boolean ecrire=false;
     }
 
     private void button1MouseClicked(MouseEvent e) {
@@ -35,8 +37,11 @@ System.out.println("here");
         S_ecr.setText("");
         L_ecr.setText("");
         L_lec.setText("");
-        TransportCouche.ResetData();
-
+        fileUtility.Erase("Couche/Session/S_ecr.txt");
+        fileUtility.Erase("Couche/LiasonDonnee/L_ecr.txt");
+        fileUtility.Erase("Couche/LiasonDonnee/L_lec.txt");
+        fileUtility.Erase("Couche/Session/S_lec.txt");
+        System.out.println("erase");
     }
 
     private void button1(ActionEvent e) {
@@ -65,10 +70,7 @@ System.out.println("here");
         catch(Exception e2) { System.out.println(e2); }
     }
 
-    public void button3MouseClicked(MouseEvent e) throws IOException {
-        generateSlec.RandomData();
-        // TODO add your code here
-    }
+
 
     private void button4MouseClicked(MouseEvent e) {
         String data =
@@ -98,12 +100,23 @@ System.out.println("here");
             FileWriter fileWriter= new FileWriter(filepath);
             fileWriter.write(data);
             fileWriter.flush();
-            fileWriter.close();
+System.out.println("Fichier demo chargee");
+fileWriter.close();
+
 
         } catch (IOException g) {
             g.printStackTrace();
         }
     }   
+
+
+
+    private void button3MouseClicked(MouseEvent e) throws IOException {
+        generateSlec.RandomData();
+        System.out.println("donnees aleatoires generees");
+    }
+
+
 
 
     private void initComponents() {
@@ -205,11 +218,7 @@ System.out.println("here");
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
-                try {
-                    button3MouseClicked(e);
-                } catch (IOException ex) {
-                    ex.printStackTrace();
-                }
+                //button3MouseClicked(e);
             }
         });
 
@@ -222,42 +231,43 @@ System.out.println("here");
                 button4MouseClicked(e);
             }
         });
+        //button4.addActionListener(e -> button4(e));
 
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(contentPaneLayout.createSequentialGroup()
-                    .addContainerGap(26, Short.MAX_VALUE)
+                    .addContainerGap(28, Short.MAX_VALUE)
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
                             .addGroup(contentPaneLayout.createParallelGroup()
-                                .addComponent(scrollPane1, GroupLayout.DEFAULT_SIZE, 219, Short.MAX_VALUE)
-                                .addComponent(scrollPane2, GroupLayout.DEFAULT_SIZE, 219, Short.MAX_VALUE)
+                                .addComponent(scrollPane1, GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE)
+                                .addComponent(scrollPane2, GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE)
                                 .addGroup(contentPaneLayout.createSequentialGroup()
                                     .addComponent(label1)
-                                    .addGap(0, 187, Short.MAX_VALUE)))
+                                    .addGap(0, 188, Short.MAX_VALUE)))
                             .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE))
                         .addGroup(contentPaneLayout.createSequentialGroup()
                             .addComponent(label3)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 264, Short.MAX_VALUE)))
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 265, Short.MAX_VALUE)))
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
                             .addGap(10, 10, 10)
                             .addComponent(label4)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 567, Short.MAX_VALUE)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 571, Short.MAX_VALUE)
                             .addComponent(button2, GroupLayout.PREFERRED_SIZE, 155, GroupLayout.PREFERRED_SIZE)
                             .addGap(68, 68, 68))
                         .addGroup(contentPaneLayout.createSequentialGroup()
                             .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                .addComponent(scrollPane4, GroupLayout.Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE)
+                                .addComponent(scrollPane4, GroupLayout.Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE)
                                 .addComponent(scrollPane3, GroupLayout.Alignment.LEADING)
                                 .addGroup(GroupLayout.Alignment.LEADING, contentPaneLayout.createSequentialGroup()
                                     .addComponent(label2)
-                                    .addGap(0, 241, Short.MAX_VALUE)))
+                                    .addGap(0, 245, Short.MAX_VALUE)))
                             .addGroup(contentPaneLayout.createParallelGroup()
                                 .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
-                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 346, Short.MAX_VALUE)
+                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 348, Short.MAX_VALUE)
                                     .addComponent(button4)
                                     .addGap(142, 142, 142))
                                 .addGroup(contentPaneLayout.createSequentialGroup()
@@ -265,7 +275,7 @@ System.out.println("here");
                                     .addGroup(contentPaneLayout.createParallelGroup()
                                         .addGroup(contentPaneLayout.createSequentialGroup()
                                             .addComponent(button3)
-                                            .addContainerGap(100, Short.MAX_VALUE))
+                                            .addContainerGap(102, Short.MAX_VALUE))
                                         .addGroup(contentPaneLayout.createSequentialGroup()
                                             .addComponent(button1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                             .addGap(101, 101, 101))))))))

@@ -1,15 +1,6 @@
-Envoi du PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 174, adrDestination = 6 }
-Envoi du PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 17, adrDestination = 108 }
-Envoi du PaquetDonnee {  numeroConnexion= 2, typePaquet= 00000000 donnee = nice }
-Envoi du PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 133, adrDestination = 137 }
-Envoi du PaquetAppel {  numeroConnexion= 4, typePaquet= 00001011 adrSource = 133, adrDestination = 137 }
-Envoi du PaquetAppel {  numeroConnexion= 5, typePaquet= 00001011 adrSource = 137, adrDestination = 108 }
-Envoi du PaquetAppel {  numeroConnexion= 6, typePaquet= 00001011 adrSource = 38, adrDestination = 94 }
-Envoi du PaquetAppel {  numeroConnexion= 7, typePaquet= 00001011 adrSource = 137, adrDestination = 17 }
-Envoi du PaquetDonnee {  numeroConnexion= 7, typePaquet= 00000000 donnee = hello word }
-Envoi du PaquetIndLiberation {  numeroConnexion= 7, typePaquet= 00000001 adrSource = 137, adrDestination = 17, raison = ET terminer la liaison de donne' }
-Envoi du PaquetAppel {  numeroConnexion= 8, typePaquet= 00001011 adrSource = 38, adrDestination = 94 }
-Envoi du PaquetAppel {  numeroConnexion= 9, typePaquet= 00001011 adrSource = 38, adrDestination = 94 }
-Envoi du PaquetAppel {  numeroConnexion= 10, typePaquet= 00001011 adrSource = 38, adrDestination = 94 }
-Envoi du PaquetAppel {  numeroConnexion= 11, typePaquet= 00001011 adrSource = 17, adrDestination = 133 }
-Envoi du PaquetDonnee {  numeroConnexion= 11, typePaquet= 00000000 donnee = y6546¬¦¤¢¬345432 }
+Envoi du Paquet d'Appel {  numeroConnexion= 1, typeDePaquet= 00001011 adresseSource = 104, adrDestination = 233 }
+Envoi du Paquet d'Appel {  numeroConnexion= 2, typeDePaquet= 00001011 adresseSource = 4, adrDestination = 7 }
+Envoi du Paquet d'Appel {  numeroConnexion= 3, typeDePaquet= 00001011 adresseSource = 223, adrDestination = 224 }
+Envoi du PaquetIndLiberation {  numeroConnexion= 2, typeDePaquet= 00000001 adrSource = 4, adrDestination = 7, raison = ET terminer la liaison de donne' }
+Envoi du PaquetIndLiberation {  numeroConnexion= 3, typeDePaquet= 00000001 adrSource = 223, adrDestination = 224, raison = ET terminer la liaison de donne' }
+Envoi du Paquet d'Appel {  numeroConnexion= 4, typeDePaquet= 00001011 adresseSource = 4, adrDestination = 7 }

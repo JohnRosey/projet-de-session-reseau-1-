@@ -17,7 +17,7 @@ public class NDataReq extends Primitive{
 
     @Override
     public String toString() {
-        return "NDataReq { " +
+        return " Primitive :N_Data.Req { " +
                 " donneeUser = " + donneeUser +
                 " }";
     }

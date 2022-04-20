@@ -26,7 +26,7 @@ public class NConnectReq extends Primitive{
 
     @Override
     public String toString() {
-        return "NConnectReq { " +
+        return " Primitive :NConnect.Req { " +
                 " adrSource = " + adrSource +
                 ", adrDestination = " + adrDestination +
                 " }";

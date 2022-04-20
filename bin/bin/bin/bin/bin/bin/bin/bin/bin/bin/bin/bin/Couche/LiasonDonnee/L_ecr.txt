@@ -1,0 +1,15 @@
+Envoi du PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 98, adrDestination = 136 }
+Envoi du PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 159, adrDestination = 86 }
+Envoi du PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 110, adrDestination = 86 }
+Envoi du PaquetAppel {  numeroConnexion= 4, typePaquet= 00001011 adrSource = 35, adrDestination = 23 }
+Envoi du PaquetAppel {  numeroConnexion= 5, typePaquet= 00001011 adrSource = 241, adrDestination = 231 }
+Envoi du PaquetIndLiberation {  numeroConnexion= 5, typePaquet= 00000001 adrSource = 241, adrDestination = 231, raison = ET terminer la liaison de donne' }
+Envoi du PaquetAppel {  numeroConnexion= 6, typePaquet= 00001011 adrSource = 241, adrDestination = 231 }
+Envoi du PaquetIndLiberation {  numeroConnexion= 1, typePaquet= 00000001 adrSource = 98, adrDestination = 136, raison = ET terminer la liaison de donne' }
+Envoi du PaquetAppel {  numeroConnexion= 7, typePaquet= 00001011 adrSource = 184, adrDestination = 136 }
+Envoi du PaquetAppel {  numeroConnexion= 8, typePaquet= 00001011 adrSource = 98, adrDestination = 136 }
+Envoi du PaquetAppel {  numeroConnexion= 9, typePaquet= 00001011 adrSource = 109, adrDestination = 73 }
+Envoi du PaquetIndLiberation {  numeroConnexion= 2, typePaquet= 00000001 adrSource = 159, adrDestination = 86, raison = ET terminer la liaison de donne' }
+Envoi du PaquetIndLiberation {  numeroConnexion= 7, typePaquet= 00000001 adrSource = 184, adrDestination = 136, raison = ET terminer la liaison de donne' }
+Envoi du PaquetIndLiberation {  numeroConnexion= 4, typePaquet= 00000001 adrSource = 35, adrDestination = 23, raison = ET terminer la liaison de donne' }
+Envoi du PaquetAppel {  numeroConnexion= 10, typePaquet= 00001011 adrSource = 184, adrDestination = 136 }
