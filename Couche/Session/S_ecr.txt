@@ -1,14 +1,19 @@
-Google.exe a recu la primitive  Primitive : N_Disconnect.Ind {  adresseReponse = 104, raison = refus de connexion de la part du distant }
-Google.exe{adresse: 104} déconnecté du Ads.exeadresse de provenance 233, Raison: refus de connexion de la part du distant
-Linkedin.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 4 }
-Linkedin.exe a réussi à se connecter au Ebay.exe, adresse de provenance: 4, adresse destination: 7 Etat: connexion_etablie
-Gmail.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 223 }
-Gmail.exe a réussi à se connecter au reddit.exe, adresse de provenance: 223, adresse destination: 224 Etat: connexion_etablie
-Linkedin.exe est déconnecté du  Ebay.exe
+1234 a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 225 }
+1234 a réussi à se connecter au  22, adresse de provenance: 225, adresse destination: 69 Etat: connexion_etablie
+Brave a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 5 }
+Brave a réussi à se connecter au Edge, adresse de provenance: 5, adresse destination: 214 Etat: connexion_etablie
+22 a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 170 }
+22 a réussi à se connecter au    1234, adresse de provenance: 170, adresse destination: 203 Etat: connexion_etablie
+Edge a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 214 }
+Edge a réussi à se connecter au Brave, adresse de provenance: 214, adresse destination: 5 Etat: connexion_etablie
+Firefox a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 185 }
+Firefox a réussi à se connecter au Brave, adresse de provenance: 185, adresse destination: 5 Etat: connexion_etablie
+Edge a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 214 }
+Edge a réussi à se connecter au Chrome, adresse de provenance: 214, adresse destination: 103 Etat: connexion_etablie
+Chrome a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 103 }
+Chrome a réussi à se connecter au Firefox, adresse de provenance: 103, adresse destination: 185 Etat: connexion_etablie
+Firefox a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 185 }
+Firefox a réussi à se connecter au Edge, adresse de provenance: 185, adresse destination: 214 Etat: connexion_etablie
+Firefox est déconnecté du  Edge
 , Raison: disconnected Closed by Client 
 
-Gmail.exe est déconnecté du  reddit.exe
-, Raison: disconnected Closed by Client 
-
-Linkedin.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 4 }
-Linkedin.exe a réussi à se connecter au Ebay.exe, adresse de provenance: 4, adresse destination: 7 Etat: connexion_etablie

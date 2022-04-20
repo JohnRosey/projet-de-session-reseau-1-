@@ -1,24 +1,17 @@
-Whatsapp.exe       Target.exe       DATA Computer is a
-Instagram.exe       MongoDB.exe       DATA Phone is b
-Microsoft.exe       reddit.exe       DATA Tablet is cc
-Gmail.exe       Firebase.exe       DATA Laptop is d
-Linkedin.exe       AWS.exe       DATA Smartwatch is e
-Google.exe       Ads.exe       DATA Smartphone is f
-Amazon.exe       Firebase.exe       DATA Smart TV is g
-Twitter.exe       Ads.exe       DATA Speaker is h
-Whatsapp.exe       Target.exe       LIB
-Instagram.exe       MongoDB.exe       LIB
-Microsoft.exe       reddit.exe       LIB
-Gmail.exe       Firebase.exe       LIB
-Linkedin.exe       AWS.exe       LIB
-Google.exe       Ads.exe       LIB
-Amazon.exe       Firebase.exe       LIB
-Twitter.exe       Ads.exe       LIB
-Whatsapp.exe       Target.exe       CONNECT
-Instagram.exe       MongoDB.exe       CONNECT
-Microsoft.exe       reddit.exe       CONNECT
-Gmail.exe       Firebase.exe       CONNECT
-Linkedin.exe       AWS.exe       CONNECT
-Google.exe       Ads.exe       CONNECT
-Amazon.exe       Firebase.exe       CONNECT
-Twitter.exe       Ads.exe       CONNECT
+Firefox       Edge       CONECT
+Firefox       Edge       DATA       hello word
+Firefox       Edge       LIB
+Chrome       Firefox       CONECT
+Chrome       Firefox       DATA       my enemey
+Chrome       Firefox       LIB
+Brave       Edge       DATA      887499887yu6867u5756u
+Firefox       Brave       CONECT
+Edge       Brave       DATA       nice
+Edge       Chrome       DATA       y6546¬¦¤¢¬345432
+Brave       Firefox       LIB
+1234        22          CONECT      UNDERCORVER
+22          1234        DATA        hello
+22          1234        LIB
+1234        22          CONECT      UNDERCORVER
+22          1234        DATA        hello
+22          1234        LIB

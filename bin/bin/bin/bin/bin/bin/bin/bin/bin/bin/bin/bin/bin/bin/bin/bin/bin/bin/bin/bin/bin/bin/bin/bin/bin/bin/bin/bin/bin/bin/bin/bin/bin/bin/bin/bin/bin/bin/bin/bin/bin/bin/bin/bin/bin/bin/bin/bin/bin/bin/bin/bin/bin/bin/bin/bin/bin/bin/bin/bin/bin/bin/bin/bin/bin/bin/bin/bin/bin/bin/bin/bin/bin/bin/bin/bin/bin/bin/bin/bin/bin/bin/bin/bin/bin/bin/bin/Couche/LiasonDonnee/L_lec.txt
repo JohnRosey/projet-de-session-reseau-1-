@@ -1,7 +1,0 @@
-PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 63, adrDestination = 161 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 1, typePaquet= 00001111 adrSource = 63, adrDestination = 161 }
-PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 228, adrDestination = 221 } ne reçoit pas de réponse
-PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 157, adrDestination = 46 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 3, typePaquet= 00001111 adrSource = 157, adrDestination = 46 }
-PaquetAppel {  numeroConnexion= 4, typePaquet= 00001011 adrSource = 89, adrDestination = 71 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 4, typePaquet= 00001111 adrSource = 89, adrDestination = 71 }
-PaquetAppel {  numeroConnexion= 5, typePaquet= 00001011 adrSource = 211, adrDestination = 97 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 5, typePaquet= 00001111 adrSource = 211, adrDestination = 97 }
-PaquetAppel {  numeroConnexion= 6, typePaquet= 00001011 adrSource = 112, adrDestination = 184 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 6, typePaquet= 00001111 adrSource = 112, adrDestination = 184 }
-PaquetAppel {  numeroConnexion= 7, typePaquet= 00001011 adrSource = 157, adrDestination = 46 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 7, typePaquet= 00001111 adrSource = 157, adrDestination = 46 }

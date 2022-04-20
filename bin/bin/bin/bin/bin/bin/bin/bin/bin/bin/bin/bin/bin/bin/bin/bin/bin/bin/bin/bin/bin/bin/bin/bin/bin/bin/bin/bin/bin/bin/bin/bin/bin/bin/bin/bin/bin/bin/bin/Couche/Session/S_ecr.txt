@@ -1,31 +1,36 @@
-Gmail.exe a recu la primitive NDisconnectInd {  adresseReponse = 39, raison = refus de connexion de la part du distant }
-Gmail.exe{adresse: 39} déconnecté du Firebase.exeadresse de provenance 158, Raison: refus de connexion de la part du distant
-Twitter.exe a recu la primitive NConnectConf {  adrReponde = 240 }
-Twitter.exe a réussi à se connecter au Ads.exe, adresse de provenance: 240, adresse destination: 191 Etat: connexion_etablie
-Google.exe a recu la primitive NConnectConf {  adrReponde = 199 }
-Google.exe a réussi à se connecter au Ads.exe, adresse de provenance: 199, adresse destination: 191 Etat: connexion_etablie
-Amazon.exe a recu la primitive NDisconnectInd {  adresseReponse = 19, raison = la demande ne reçoit pas de réponse }
-Amazon.exe{adresse: 19} déconnecté du Firebase.exeadresse de provenance 158, Raison: la demande ne reçoit pas de réponse
-Instagram.exe a recu la primitive NConnectConf {  adrReponde = 61 }
-Instagram.exe a réussi à se connecter au MongoDB.exe, adresse de provenance: 61, adresse destination: 156 Etat: connexion_etablie
-Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 122 }
-Linkedin.exe a réussi à se connecter au AWS.exe, adresse de provenance: 122, adresse destination: 78 Etat: connexion_etablie
-Amazon.exe a recu la primitive NDisconnectInd {  adresseReponse = 19, raison = la demande ne reçoit pas de réponse }
-Amazon.exe{adresse: 19} déconnecté du Firebase.exeadresse de provenance 158, Raison: la demande ne reçoit pas de réponse
-Microsoft.exe a recu la primitive NConnectConf {  adrReponde = 12 }
-Microsoft.exe a réussi à se connecter au reddit.exe, adresse de provenance: 12, adresse destination: 145 Etat: connexion_etablie
-Whatsapp.exe a recu la primitive NDisconnectInd {  adresseReponse = 54, raison = refus par  le Serveur }
-Whatsapp.exe{adresse: 54} déconnecté du Target.exeadresse de provenance 150, Raison: refus par  le Serveur
-Instagram.exe est déconnecté du  MongoDB.exe
+Twitter.exe a recu la primitive NConnectConf {  adrReponde = 191 }
+Twitter.exe a réussi à se connecter au Ads.exe, adresse de provenance: 191, adresse destination: 175 Etat: connexion_etablie
+Gmail.exe a recu la primitive NDisconnectInd {  adresseReponse = 114, raison = la demande ne reçoit pas de réponse }
+Gmail.exe{adresse: 114} déconnecté du Firebase.exeadresse de provenance 196, Raison: la demande ne reçoit pas de réponse
+Google.exe a recu la primitive NDisconnectInd {  adresseReponse = 78, raison = refus de connexion de la part du distant }
+Google.exe{adresse: 78} déconnecté du Ads.exeadresse de provenance 175, Raison: refus de connexion de la part du distant
+Twitter.exe est déconnecté du  Ads.exe
 , Raison: disconnected Closed by Client 
 
-Gmail.exe a recu la primitive NDisconnectInd {  adresseReponse = 39, raison = refus de connexion de la part du distant }
-Gmail.exe{adresse: 39} déconnecté du Firebase.exeadresse de provenance 158, Raison: refus de connexion de la part du distant
+Google.exe a recu la primitive NDisconnectInd {  adresseReponse = 78, raison = refus de connexion de la part du distant }
+Google.exe{adresse: 78} déconnecté du Ads.exeadresse de provenance 175, Raison: refus de connexion de la part du distant
+Twitter.exe a recu la primitive NConnectConf {  adrReponde = 191 }
+Twitter.exe a réussi à se connecter au Ads.exe, adresse de provenance: 191, adresse destination: 175 Etat: connexion_etablie
+Instagram.exe a recu la primitive NConnectConf {  adrReponde = 20 }
+Instagram.exe a réussi à se connecter au MongoDB.exe, adresse de provenance: 20, adresse destination: 125 Etat: connexion_etablie
+Whatsapp.exe a recu la primitive NConnectConf {  adrReponde = 210 }
+Whatsapp.exe a réussi à se connecter au Target.exe, adresse de provenance: 210, adresse destination: 152 Etat: connexion_etablie
+Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 235 }
+Linkedin.exe a réussi à se connecter au AWS.exe, adresse de provenance: 235, adresse destination: 48 Etat: connexion_etablie
+Whatsapp.exe est déconnecté du  Target.exe
+, Raison: disconnected Closed by Client 
+
+Amazon.exe a recu la primitive NConnectConf {  adrReponde = 17 }
+Amazon.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 17, adresse destination: 196 Etat: connexion_etablie
+Microsoft.exe a recu la primitive NConnectConf {  adrReponde = 7 }
+Microsoft.exe a réussi à se connecter au reddit.exe, adresse de provenance: 7, adresse destination: 107 Etat: connexion_etablie
 Linkedin.exe est déconnecté du  AWS.exe
 , Raison: disconnected Closed by Client 
 
-Google.exe est déconnecté du  Ads.exe
+Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 235 }
+Linkedin.exe a réussi à se connecter au AWS.exe, adresse de provenance: 235, adresse destination: 48 Etat: connexion_etablie
+Gmail.exe a recu la primitive NDisconnectInd {  adresseReponse = 114, raison = la demande ne reçoit pas de réponse }
+Gmail.exe{adresse: 114} déconnecté du Firebase.exeadresse de provenance 196, Raison: la demande ne reçoit pas de réponse
+Instagram.exe est déconnecté du  MongoDB.exe
 , Raison: disconnected Closed by Client 
 
-Linkedin.exe a recu la primitive NConnectConf {  adrReponde = 122 }
-Linkedin.exe a réussi à se connecter au AWS.exe, adresse de provenance: 122, adresse destination: 78 Etat: connexion_etablie

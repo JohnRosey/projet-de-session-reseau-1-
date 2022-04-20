@@ -4,8 +4,8 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq {space ::26:x, par l {seq {par l {comp scrollPane1::l::219:x, comp scrollPane2::l::219:x, seq {comp label1:::p::p, space :0:187:x}}, space ::77:x}, seq {comp label3:::p::p, space ::264:x}}, par l {seq l {space :p:10:p, comp label4:::p::p, space ::567:x, comp button2:::p:155:p, space :p:68:p}, seq l {par t {comp scrollPane4::l::274:x, comp scrollPane3::l:::x, seq l {comp label2:::p::p, space :0:241:x}}, par l {seq t {space ::346:x, comp button4:::p::p, space :p:142:p}, seq {space ::363:x, par l {seq {comp button3:::p::p, space ::100:x}, seq {comp button1:::::x, space :p:101:p}}}}}}}}"
-			"$verticalGroup": "par l {seq l {par l {seq {space :p:64:p, comp button1:::p::p, space u:::p, comp button3:::p::p, space ::91:x, comp button4:::p::p, space :p:126:p}, seq t {space ::167:x, par b {comp label1::b:p::p, comp label2::b:p::p}, space s:::p, par l:::p {comp scrollPane1::::158:x, comp scrollPane4::::158:x}}}, space ::100:x, par l {seq t {par b {comp label4::b:p::p, comp button2::b:p::p}, space :p:11:p}, seq t {comp label3:::p:24:p, space s:::p}}, par l:::p {comp scrollPane2::::169:x, comp scrollPane3::::169:x}, space ::136:x}}"
+			"$horizontalGroup": "par l {seq {space :p:18:p, par l {comp label1:::p::p, comp label3:::p::p, comp scrollPane1:::p:312:p, comp scrollPane2::l:p:261:p}, par l {seq t {par l {seq {space ::88:x, comp scrollPane4::::249:x}, seq t {space ::75:x, par l {comp label4:::p::p, comp scrollPane3:::p:262:p}}}, par l {seq {space :p:287:p, comp button4:::p::p, space :p:142:p}, seq t {space :::p, comp button3:::p::p, space :p:160:p}}}, seq {space ::97:x, comp label2:::p:67:p, space ::669:x}, seq t {space ::60:x, comp button2:::p:155:p, space :p:129:p, comp button1:::p:421:p, space :p:68:p}}}}"
+			"$verticalGroup": "par l {seq l {par l {seq t {space ::171:x, par b {comp label1::b:p::p, comp label2::b:p:16:p}, space s:::p, par l {comp scrollPane4:::p:158:p, comp scrollPane1:::::x}, space ::107:x}, seq l {space :p:64:p, comp button4:::p::p, space ::281:x, comp button3:::p::p, space :p:81:p}}, par l {comp label3:::p:24:p, comp label4::t:p::p}, space u:::x, par l {seq {par l {comp scrollPane2:::p:169:p, comp scrollPane3:::::x}, space ::47:x, comp button1:::p::p, space ::62:x}, seq t {space ::226:x, comp button2:::p::p, space :p:52:p}}}}"
 		} ) {
 			name: "this"
 			"title": "PROJET DE SESSION INF1009"
@@ -77,9 +77,10 @@ new FormModel {
 				"text": "Demo file"
 				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
 				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button4MouseClicked", true ) )
+				addEvent( new FormEvent( "java.awt.event.ActionListener", "actionPerformed", "button4", true ) )
 			} )
 		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 0, 0 )
+			"location": new java.awt.Point( 60, 0 )
 			"size": new java.awt.Dimension( 1165, 830 )
 		} )
 	}

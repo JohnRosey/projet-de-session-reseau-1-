@@ -1,3 +1,0 @@
-PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 213, adrDestination = 59 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 1, typePaquet= 00001111 adrSource = 213, adrDestination = 59 }
-PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 79, adrDestination = 228 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 2, typePaquet= 00001111 adrSource = 79, adrDestination = 228 }
-PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 213, adrDestination = 59 }a recu la réponse: PaquetCommunicationEtablie {  numeroConnexion= 3, typePaquet= 00001111 adrSource = 213, adrDestination = 59 }

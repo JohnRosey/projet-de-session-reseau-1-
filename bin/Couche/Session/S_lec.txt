@@ -1,9 +1,0 @@
-Facebook.exe       Target.exe       DATA Computer is a
-Google.exe       Ads.exe       DATA Phone is b
-Gmail.exe       Ebay.exe       DATA Tablet is cc
-Facebook.exe       Target.exe       LIB
-Google.exe       Ads.exe       LIB
-Gmail.exe       Ebay.exe       LIB
-Facebook.exe       Target.exe       CONNECT
-Google.exe       Ads.exe       CONNECT
-Gmail.exe       Ebay.exe       CONNECT

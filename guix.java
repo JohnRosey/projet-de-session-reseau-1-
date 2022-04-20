@@ -1,5 +1,6 @@
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.border.*;
 import Couche.CTransport.TransportCouche;
 import Couche.Session.GenerationOfStart.Generer;
 import Couche.Session.GenerationOfStart.generateSlec;
@@ -116,91 +117,58 @@ fileWriter.close();
         System.out.println("donnees aleatoires generees");
     }
 
+    private void button4(ActionEvent e) {
+        // TODO add your code here
+    }
+
 
 
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
         // Generated using JFormDesigner Evaluation license - ismael
-        label1 = new JLabel();
-        label2 = new JLabel();
-        label3 = new JLabel();
-        label4 = new JLabel();
-        scrollPane1 = new JScrollPane();
-        S_lec = new JTextArea();
-        scrollPane2 = new JScrollPane();
-        L_lec = new JTextArea();
-        scrollPane3 = new JScrollPane();
-        L_ecr = new JTextArea();
-        scrollPane4 = new JScrollPane();
-        S_ecr = new JTextArea();
-        button1 = new JButton();
-        button2 = new JButton();
-        button3 = new JButton();
-        button4 = new JButton();
+        this.label1 = new JLabel();
+        this.label4 = new JLabel();
+        this.button1 = new JButton();
+        this.button2 = new JButton();
+        this.button3 = new JButton();
+        this.button4 = new JButton();
+        this.panel1 = new JPanel();
+        this.scrollPane2 = new JScrollPane();
+        this.L_lec = new JTextArea();
+        this.scrollPane1 = new JScrollPane();
+        this.S_lec = new JTextArea();
+        this.scrollPane4 = new JScrollPane();
+        this.S_ecr = new JTextArea();
+        this.scrollPane3 = new JScrollPane();
+        this.L_ecr = new JTextArea();
+        this.label2 = new JLabel();
+        this.label3 = new JLabel();
 
         //======== this ========
         setTitle("PROJET DE SESSION INF1009");
         var contentPane = getContentPane();
 
         //---- label1 ----
-        label1.setText("S_lec");
-
-        //---- label2 ----
-        label2.setText("S_ecr");
-
-        //---- label3 ----
-        label3.setText("L_lec");
+        this.label1.setText("S_lec");
 
         //---- label4 ----
-        label4.setText("L_ecr");
-
-        //======== scrollPane1 ========
-        {
-
-            //---- S_lec ----
-            S_lec.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
-            scrollPane1.setViewportView(S_lec);
-        }
-
-        //======== scrollPane2 ========
-        {
-
-            //---- L_lec ----
-            L_lec.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
-            scrollPane2.setViewportView(L_lec);
-        }
-
-        //======== scrollPane3 ========
-        {
-
-            //---- L_ecr ----
-            L_ecr.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
-            scrollPane3.setViewportView(L_ecr);
-        }
-
-        //======== scrollPane4 ========
-        {
-
-            //---- S_ecr ----
-            S_ecr.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
-            scrollPane4.setViewportView(S_ecr);
-        }
+        this.label4.setText("L_ecr");
 
         //---- button1 ----
-        button1.setText("Commencer");
-        button1.addMouseListener(new MouseAdapter() {
+        this.button1.setText("Commencer");
+        this.button1.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 button1MouseClicked(e);
                 button1MouseClicked(e);
             }
         });
-        button1.addActionListener(e -> button1(e));
+        this.button1.addActionListener(e -> button1(e));
 
         //---- button2 ----
-        button2.setText("Reset");
-        button2.addMouseListener(new MouseAdapter() {
+        this.button2.setText("Reset");
+        this.button2.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 button2MouseClicked(e);
@@ -209,112 +177,173 @@ fileWriter.close();
         });
 
         //---- button3 ----
-        button3.setText("Regener S_lec");
-        button3.addMouseListener(new MouseAdapter() {
+        this.button3.setText("Regener S_lec");
+        this.button3.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
+               // button3MouseClicked(e);
                 try {
                     button3MouseClicked(e);
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
-                //button3MouseClicked(e);
             }
         });
 
         //---- button4 ----
-        button4.setText("Demo file");
-        button4.addMouseListener(new MouseAdapter() {
+        this.button4.setText("Demo file");
+        this.button4.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
                 button4MouseClicked(e);
                 button4MouseClicked(e);
             }
         });
-        //button4.addActionListener(e -> button4(e));
+        this.button4.addActionListener(e -> button4(e));
+
+        //======== panel1 ========
+        {
+            this.panel1.setBorder(new SoftBevelBorder(SoftBevelBorder.LOWERED));
+            this.panel1.setBorder (new javax. swing. border. CompoundBorder( new javax .swing .border .TitledBorder (new javax. swing. border. EmptyBorder( 0
+            , 0, 0, 0) , "JFor\u006dDesi\u0067ner \u0045valu\u0061tion", javax. swing. border. TitledBorder. CENTER, javax. swing. border. TitledBorder. BOTTOM
+            , new java .awt .Font ("Dia\u006cog" ,java .awt .Font .BOLD ,12 ), java. awt. Color. red) ,
+            this.panel1. getBorder( )) ); this.panel1. addPropertyChangeListener (new java. beans. PropertyChangeListener( ){ @Override public void propertyChange (java .beans .PropertyChangeEvent e
+            ) {if ("bord\u0065r" .equals (e .getPropertyName () )) throw new RuntimeException( ); }} );
+
+            //======== scrollPane2 ========
+            {
+
+                //---- L_lec ----
+                this.L_lec.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
+                this.scrollPane2.setViewportView(this.L_lec);
+            }
+
+            //======== scrollPane1 ========
+            {
+
+                //---- S_lec ----
+                this.S_lec.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
+                this.scrollPane1.setViewportView(this.S_lec);
+            }
+
+            //======== scrollPane4 ========
+            {
+
+                //---- S_ecr ----
+                this.S_ecr.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
+                this.scrollPane4.setViewportView(this.S_ecr);
+            }
+
+            //======== scrollPane3 ========
+            {
+
+                //---- L_ecr ----
+                this.L_ecr.setFont(new Font(Font.MONOSPACED, Font.BOLD | Font.ITALIC, 10));
+                this.scrollPane3.setViewportView(this.L_ecr);
+            }
+
+            GroupLayout panel1Layout = new GroupLayout(this.panel1);
+            panel1.setLayout(panel1Layout);
+            panel1Layout.setHorizontalGroup(
+                panel1Layout.createParallelGroup()
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
+                            .addComponent(this.scrollPane2, GroupLayout.DEFAULT_SIZE, 371, Short.MAX_VALUE)
+                            .addComponent(this.scrollPane1))
+                        .addGap(68, 68, 68)
+                        .addGroup(panel1Layout.createParallelGroup()
+                            .addComponent(this.scrollPane4)
+                            .addGroup(panel1Layout.createSequentialGroup()
+                                .addComponent(this.scrollPane3, GroupLayout.PREFERRED_SIZE, 309, GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 11, Short.MAX_VALUE)))
+                        .addContainerGap())
+            );
+            panel1Layout.setVerticalGroup(
+                panel1Layout.createParallelGroup()
+                    .addGroup(panel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(panel1Layout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                            .addComponent(this.scrollPane4, GroupLayout.PREFERRED_SIZE, 302, GroupLayout.PREFERRED_SIZE)
+                            .addComponent(this.scrollPane1, GroupLayout.PREFERRED_SIZE, 302, GroupLayout.PREFERRED_SIZE))
+                        .addGap(59, 59, 59)
+                        .addGroup(panel1Layout.createParallelGroup()
+                            .addGroup(panel1Layout.createSequentialGroup()
+                                .addComponent(this.scrollPane2, GroupLayout.PREFERRED_SIZE, 303, GroupLayout.PREFERRED_SIZE)
+                                .addContainerGap(15, Short.MAX_VALUE))
+                            .addComponent(this.scrollPane3, GroupLayout.DEFAULT_SIZE, 318, Short.MAX_VALUE)))
+            );
+        }
+
+        //---- label2 ----
+        this.label2.setText("S_ecr");
+
+        //---- label3 ----
+        this.label3.setText("L_lec");
 
         GroupLayout contentPaneLayout = new GroupLayout(contentPane);
         contentPane.setLayout(contentPaneLayout);
         contentPaneLayout.setHorizontalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(contentPaneLayout.createSequentialGroup()
-                    .addContainerGap(28, Short.MAX_VALUE)
+                    .addGap(18, 18, 18)
+                    .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
+                        .addComponent(this.label1)
+                        .addComponent(this.label3))
+                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED)
+                    .addComponent(this.panel1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(contentPaneLayout.createParallelGroup()
-                        .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addGroup(contentPaneLayout.createParallelGroup()
-                                .addComponent(scrollPane1, GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE)
-                                .addComponent(scrollPane2, GroupLayout.DEFAULT_SIZE, 220, Short.MAX_VALUE)
-                                .addGroup(contentPaneLayout.createSequentialGroup()
-                                    .addComponent(label1)
-                                    .addGap(0, 188, Short.MAX_VALUE)))
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 77, Short.MAX_VALUE))
-                        .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addComponent(label3)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 265, Short.MAX_VALUE)))
-                    .addGroup(contentPaneLayout.createParallelGroup()
-                        .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addGap(10, 10, 10)
-                            .addComponent(label4)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 571, Short.MAX_VALUE)
-                            .addComponent(button2, GroupLayout.PREFERRED_SIZE, 155, GroupLayout.PREFERRED_SIZE)
+                        .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createParallelGroup()
+                            .addGroup(contentPaneLayout.createSequentialGroup()
+                                .addGap(287, 287, 287)
+                                .addComponent(this.button4)
+                                .addGap(142, 142, 142))
+                            .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
+                                .addComponent(this.button3)
+                                .addGap(160, 160, 160)))
+                        .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
+                            .addComponent(this.button2, GroupLayout.PREFERRED_SIZE, 155, GroupLayout.PREFERRED_SIZE)
+                            .addGap(129, 129, 129)
+                            .addComponent(this.button1, GroupLayout.PREFERRED_SIZE, 421, GroupLayout.PREFERRED_SIZE)
                             .addGap(68, 68, 68))
                         .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.TRAILING)
-                                .addComponent(scrollPane4, GroupLayout.Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 278, Short.MAX_VALUE)
-                                .addComponent(scrollPane3, GroupLayout.Alignment.LEADING)
-                                .addGroup(GroupLayout.Alignment.LEADING, contentPaneLayout.createSequentialGroup()
-                                    .addComponent(label2)
-                                    .addGap(0, 245, Short.MAX_VALUE)))
                             .addGroup(contentPaneLayout.createParallelGroup()
-                                .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
-                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 348, Short.MAX_VALUE)
-                                    .addComponent(button4)
-                                    .addGap(142, 142, 142))
-                                .addGroup(contentPaneLayout.createSequentialGroup()
-                                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 363, Short.MAX_VALUE)
-                                    .addGroup(contentPaneLayout.createParallelGroup()
-                                        .addGroup(contentPaneLayout.createSequentialGroup()
-                                            .addComponent(button3)
-                                            .addContainerGap(102, Short.MAX_VALUE))
-                                        .addGroup(contentPaneLayout.createSequentialGroup()
-                                            .addComponent(button1, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addGap(101, 101, 101))))))))
+                                .addComponent(this.label2, GroupLayout.PREFERRED_SIZE, 67, GroupLayout.PREFERRED_SIZE)
+                                .addComponent(this.label4))
+                            .addContainerGap())))
         );
         contentPaneLayout.setVerticalGroup(
             contentPaneLayout.createParallelGroup()
                 .addGroup(contentPaneLayout.createSequentialGroup()
                     .addGroup(contentPaneLayout.createParallelGroup()
                         .addGroup(contentPaneLayout.createSequentialGroup()
-                            .addGap(64, 64, 64)
-                            .addComponent(button1)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(button3)
-                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 91, Short.MAX_VALUE)
-                            .addComponent(button4)
-                            .addGap(126, 126, 126))
-                        .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
-                            .addContainerGap(167, Short.MAX_VALUE)
-                            .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                                .addComponent(label1)
-                                .addComponent(label2))
                             .addGap(18, 18, 18)
-                            .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
-                                .addComponent(scrollPane1, GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE)
-                                .addComponent(scrollPane4, GroupLayout.DEFAULT_SIZE, 158, Short.MAX_VALUE))))
-                    .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 100, Short.MAX_VALUE)
+                            .addComponent(this.label2, GroupLayout.PREFERRED_SIZE, 16, GroupLayout.PREFERRED_SIZE)
+                            .addGap(30, 30, 30)
+                            .addComponent(this.button4)
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 353, Short.MAX_VALUE)
+                            .addComponent(this.label4)
+                            .addGap(123, 123, 123)
+                            .addComponent(this.button3)
+                            .addGap(204, 204, 204))
+                        .addGroup(contentPaneLayout.createSequentialGroup()
+                            .addContainerGap()
+                            .addGroup(contentPaneLayout.createParallelGroup()
+                                .addComponent(this.panel1, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
+                                .addGroup(contentPaneLayout.createSequentialGroup()
+                                    .addComponent(this.label1)
+                                    .addGap(359, 359, 359)
+                                    .addComponent(this.label3, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)))
+                            .addPreferredGap(LayoutStyle.ComponentPlacement.RELATED, 107, Short.MAX_VALUE)))
                     .addGroup(contentPaneLayout.createParallelGroup()
+                        .addGroup(contentPaneLayout.createSequentialGroup()
+                            .addComponent(this.button1)
+                            .addContainerGap(140, Short.MAX_VALUE))
                         .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
-                            .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.BASELINE)
-                                .addComponent(label4)
-                                .addComponent(button2))
-                            .addGap(11, 11, 11))
-                        .addGroup(GroupLayout.Alignment.TRAILING, contentPaneLayout.createSequentialGroup()
-                            .addComponent(label3, GroupLayout.PREFERRED_SIZE, 24, GroupLayout.PREFERRED_SIZE)
-                            .addGap(18, 18, 18)))
-                    .addGroup(contentPaneLayout.createParallelGroup(GroupLayout.Alignment.LEADING, false)
-                        .addComponent(scrollPane2, GroupLayout.DEFAULT_SIZE, 169, Short.MAX_VALUE)
-                        .addComponent(scrollPane3, GroupLayout.DEFAULT_SIZE, 169, Short.MAX_VALUE))
-                    .addContainerGap(136, Short.MAX_VALUE))
+                            .addGap(0, 0, Short.MAX_VALUE)
+                            .addComponent(this.button2)
+                            .addGap(52, 52, 52))))
         );
         pack();
         setLocationRelativeTo(getOwner());
@@ -332,20 +361,21 @@ fileWriter.close();
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
     // Generated using JFormDesigner Evaluation license - ismael
     private JLabel label1;
-    private JLabel label2;
-    private JLabel label3;
     private JLabel label4;
-    private JScrollPane scrollPane1;
-    private JTextArea S_lec;
-    private JScrollPane scrollPane2;
-    private JTextArea L_lec;
-    private JScrollPane scrollPane3;
-    private JTextArea L_ecr;
-    private JScrollPane scrollPane4;
-    private JTextArea S_ecr;
     private JButton button1;
     private JButton button2;
     private JButton button3;
     private JButton button4;
+    private JPanel panel1;
+    private JScrollPane scrollPane2;
+    private JTextArea L_lec;
+    private JScrollPane scrollPane1;
+    private JTextArea S_lec;
+    private JScrollPane scrollPane4;
+    private JTextArea S_ecr;
+    private JScrollPane scrollPane3;
+    private JTextArea L_ecr;
+    private JLabel label2;
+    private JLabel label3;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
 }

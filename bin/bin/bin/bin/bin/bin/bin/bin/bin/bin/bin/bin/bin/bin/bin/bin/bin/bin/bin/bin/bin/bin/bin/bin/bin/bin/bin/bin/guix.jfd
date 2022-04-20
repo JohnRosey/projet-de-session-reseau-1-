@@ -28,25 +28,29 @@ new FormModel {
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane1"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea1"
+					name: "S_lec"
+					"font": &Font0 new java.awt.Font( "Monospaced", 3, 10 )
 				} )
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane2"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea2"
+					name: "L_lec"
+					"font": #Font0
 				} )
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane3"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea3"
+					name: "L_ecr"
+					"font": #Font0
 				} )
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane4"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea4"
+					name: "S_ecr"
+					"font": #Font0
 				} )
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
@@ -58,6 +62,7 @@ new FormModel {
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "button2"
 				"text": "Reset"
+				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
 				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
 			} )
 		}, new FormLayoutConstraints( null ) {

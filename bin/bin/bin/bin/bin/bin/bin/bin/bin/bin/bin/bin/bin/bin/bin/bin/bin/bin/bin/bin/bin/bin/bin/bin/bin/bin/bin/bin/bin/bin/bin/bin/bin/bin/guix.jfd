@@ -4,8 +4,8 @@ new FormModel {
 	contentType: "form/swing"
 	root: new FormRoot {
 		add( new FormWindow( "javax.swing.JFrame", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
-			"$horizontalGroup": "par l {seq l {space ::51:x, par l {comp label1:::p::p, comp label3::l:p::p, comp scrollPane1::l::222:x, comp scrollPane2::l:::x}, space ::15:x, par l {seq {comp label4:::p::p, space :0:687:x}, seq l {par t {comp label2::l:p::p, comp scrollPane4::l::221:x, comp scrollPane3::l:::x}, space ::243:x, par l {comp button1:::::x, comp button2:::p:155:p}, space :p:101:p}}}}"
-			"$verticalGroup": "par l {seq l {par l {seq {space :p:37:p, comp label1:::p::p}, seq t {space :::p, comp label2:::p::p}}, par l {seq {space :p:11:p, comp button1:::p::p, space :p:51:p, comp button2:::p::p, space :0:0:x}, seq t {space :::x, comp scrollPane1::::101:x}, seq l {space :::x, comp scrollPane4::::101:x}}, space ::75:x, par b {comp label3::b:p::p, comp label4::b:p::p}, space s:::x, par l:::p {comp scrollPane3::::100:x, comp scrollPane2::::100:x}, space ::107:x}}"
+			"$horizontalGroup": "par l {seq {space ::77:x, par l {seq {par l {comp scrollPane1::l::248:x, comp scrollPane2::l::248:x, seq {comp label1:::p::p, space :0:216:x}}, space ::41:x}, seq {comp label3:::p::p, space ::257:x}}, par l {seq l {space :p:10:p, comp label4:::p::p, space ::467:x, comp button2:::p:155:p, space :p:82:p}, seq {par t {comp scrollPane4::l::271:x, comp scrollPane3::l:::x, seq l {comp label2:::p::p, space :0:238:x}}, space ::293:x, comp button1:::::x, space :p:101:p}}}}"
+			"$verticalGroup": "par l {seq l {par l {seq {space :p:64:p, comp button1:::p::p, space :0:200:x}, seq t {space ::94:x, par b {comp label1::b:p::p, comp label2::b:p::p}, space s:::p, par l:::p {comp scrollPane1::::158:x, comp scrollPane4::::158:x}}}, space ::67:x, par l {seq t {par b {comp button2::b:p::p, comp label4::b:p::p}, space :p:11:p}, seq t {comp label3:::p:24:p, space s:::p}}, par l:::p {comp scrollPane2::::169:x, comp scrollPane3::::169:x}, space ::107:x}}"
 		} ) {
 			name: "this"
 			"title": "PROJET DE SESSION INF1009"
@@ -28,25 +28,25 @@ new FormModel {
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane1"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea1"
+					name: "S_lec"
 				} )
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane2"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea2"
+					name: "L_lec"
 				} )
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane3"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea3"
+					name: "L_ecr"
 				} )
 			} )
 			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
 				name: "scrollPane4"
 				add( new FormComponent( "javax.swing.JTextArea" ) {
-					name: "textArea4"
+					name: "S_ecr"
 				} )
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
@@ -61,8 +61,8 @@ new FormModel {
 				addEvent( new FormEvent( "java.awt.event.MouseListener", "mouseClicked", "button2MouseClicked", true ) )
 			} )
 		}, new FormLayoutConstraints( null ) {
-			"location": new java.awt.Point( 55, 15 )
-			"size": new java.awt.Dimension( 1010, 500 )
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 1115, 695 )
 		} )
 	}
 }

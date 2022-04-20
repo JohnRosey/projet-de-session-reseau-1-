@@ -1,5 +1,0 @@
-Envoi du PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 213, adrDestination = 59 }
-Envoi du PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 79, adrDestination = 228 }
-Envoi du PaquetIndLiberation {  numeroConnexion= 1, typePaquet= 00000001 adrSource = 213, adrDestination = 59, raison = ET terminer la liaison de donne' }
-Envoi du PaquetIndLiberation {  numeroConnexion= 2, typePaquet= 00000001 adrSource = 79, adrDestination = 228, raison = ET terminer la liaison de donne' }
-Envoi du PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 213, adrDestination = 59 }
