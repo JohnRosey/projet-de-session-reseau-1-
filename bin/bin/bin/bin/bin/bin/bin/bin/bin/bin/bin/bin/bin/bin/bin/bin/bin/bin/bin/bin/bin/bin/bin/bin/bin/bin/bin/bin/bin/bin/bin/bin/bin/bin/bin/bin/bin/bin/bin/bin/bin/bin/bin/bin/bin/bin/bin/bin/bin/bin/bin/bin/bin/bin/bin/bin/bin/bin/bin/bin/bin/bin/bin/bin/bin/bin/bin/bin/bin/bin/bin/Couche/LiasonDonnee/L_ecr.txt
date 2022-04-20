@@ -1,0 +1,8 @@
+Envoi du PaquetAppel {  numeroConnexion= 1, typePaquet= 00001011 adrSource = 157, adrDestination = 6 }
+Envoi du PaquetAppel {  numeroConnexion= 2, typePaquet= 00001011 adrSource = 170, adrDestination = 236 }
+Envoi du PaquetAppel {  numeroConnexion= 3, typePaquet= 00001011 adrSource = 133, adrDestination = 182 }
+Envoi du PaquetAppel {  numeroConnexion= 4, typePaquet= 00001011 adrSource = 229, adrDestination = 173 }
+Envoi du PaquetAppel {  numeroConnexion= 5, typePaquet= 00001011 adrSource = 99, adrDestination = 112 }
+Envoi du PaquetAppel {  numeroConnexion= 6, typePaquet= 00001011 adrSource = 233, adrDestination = 236 }
+Envoi du PaquetIndLiberation {  numeroConnexion= 6, typePaquet= 00000001 adrSource = 233, adrDestination = 236, raison = ET veut libérer la connexion' }
+Envoi du PaquetAppel {  numeroConnexion= 7, typePaquet= 00001011 adrSource = 104, adrDestination = 136 }

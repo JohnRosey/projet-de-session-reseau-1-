@@ -1,0 +1,27 @@
+1234 a recu la primitive NConnectConf {  adrReponde = 174 }
+1234 a réussi à se connecter au  22, adresse de provenance: 174, adresse destination: 6 Etat: connexion_etablie
+Edge a recu la primitive NConnectConf {  adrReponde = 17 }
+Edge a réussi à se connecter au Brave, adresse de provenance: 17, adresse destination: 108 Etat: connexion_etablie
+Chrome a recu la primitive NDisconnectInd {  adresseReponse = 133, raison = la demande ne reçoit pas de réponse }
+Chrome{adresse: 133} déconnecté du Firefoxadresse de provenance 137, Raison: la demande ne reçoit pas de réponse
+Brave a recu la primitive NDisconnectInd {  adresseReponse = 108, raison = refus par  le Serveur }
+Brave{adresse: 108} déconnecté du Edgeadresse de provenance 17, Raison: refus par  le Serveur
+Chrome a recu la primitive NDisconnectInd {  adresseReponse = 133, raison = la demande ne reçoit pas de réponse }
+Chrome{adresse: 133} déconnecté du Firefoxadresse de provenance 137, Raison: la demande ne reçoit pas de réponse
+Firefox a recu la primitive NConnectConf {  adrReponde = 137 }
+Firefox a réussi à se connecter au Brave, adresse de provenance: 137, adresse destination: 108 Etat: connexion_etablie
+22 a recu la primitive NDisconnectInd {  adresseReponse = 38, raison = la demande ne reçoit pas de réponse }
+22{adresse: 38} déconnecté du    1234adresse de provenance 94, Raison: la demande ne reçoit pas de réponse
+Firefox a recu la primitive NConnectConf {  adrReponde = 137 }
+Firefox a réussi à se connecter au Edge, adresse de provenance: 137, adresse destination: 17 Etat: connexion_etablie
+Firefox est déconnecté du  Edge
+, Raison: disconnected Closed by Client 
+
+22 a recu la primitive NDisconnectInd {  adresseReponse = 38, raison = la demande ne reçoit pas de réponse }
+22{adresse: 38} déconnecté du    1234adresse de provenance 94, Raison: la demande ne reçoit pas de réponse
+22 a recu la primitive NDisconnectInd {  adresseReponse = 38, raison = la demande ne reçoit pas de réponse }
+22{adresse: 38} déconnecté du    1234adresse de provenance 94, Raison: la demande ne reçoit pas de réponse
+22 a recu la primitive NDisconnectInd {  adresseReponse = 38, raison = la demande ne reçoit pas de réponse }
+22{adresse: 38} déconnecté du    1234adresse de provenance 94, Raison: la demande ne reçoit pas de réponse
+Edge a recu la primitive NConnectConf {  adrReponde = 17 }
+Edge a réussi à se connecter au Chrome, adresse de provenance: 17, adresse destination: 133 Etat: connexion_etablie

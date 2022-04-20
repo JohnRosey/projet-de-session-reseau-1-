@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component inheritJdk="true">
+	<contentEntry url="file://$MODULE_DIR$"/>
+	<lib name="annotations-20.1.0.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/lib/annotations-20.1.0.jar!/"/>
+	</lib>
+	<levels>
+		<level name="MigLayout" value="project"/>
+		<level name="IntelliJ IDEA GridLayout" value="project"/>
+	</levels>
+</component>

@@ -1,0 +1,18 @@
+1234 a recu la primitive NConnectConf {  adrReponde = 125 }
+1234 a réussi à se connecter au  22, adresse source: 125, adresse destination: 90 Etat: connexion_etablie
+22 a recu la primitive NConnectConf {  adrReponde = 148 }
+22 a réussi à se connecter au    1234, adresse source: 148, adresse destination: 121 Etat: connexion_etablie
+Chrome a recu la primitive NConnectConf {  adrReponde = 186 }
+Chrome a réussi à se connecter au Firefox, adresse source: 186, adresse destination: 104 Etat: connexion_etablie
+Firefox a recu la primitive NDisconnectInd {  adrReponde = 104, raison = refus de connexion de la part du distant }
+Firefox{adresse: 104} déconnecté du Edge{adresse: 64}, Raison: refus de connexion de la part du distant
+Firefox a recu la primitive NDisconnectInd {  adrReponde = 104, raison = refus de connexion de la part du distant }
+Firefox{adresse: 104} déconnecté du Edge{adresse: 64}, Raison: refus de connexion de la part du distant
+Edge a recu la primitive NConnectConf {  adrReponde = 64 }
+Edge a réussi à se connecter au Chrome, adresse source: 64, adresse destination: 186 Etat: connexion_etablie
+Brave a recu la primitive NConnectConf {  adrReponde = 111 }
+Brave a réussi à se connecter au Edge, adresse source: 111, adresse destination: 64 Etat: connexion_etablie
+Edge a recu la primitive NConnectConf {  adrReponde = 64 }
+Edge a réussi à se connecter au Brave, adresse source: 64, adresse destination: 111 Etat: connexion_etablie
+Firefox a recu la primitive NDisconnectInd {  adrReponde = 104, raison = refus de connexion de la part du distant }
+Firefox{adresse: 104} déconnecté du Brave{adresse: 111}, Raison: refus de connexion de la part du distant
