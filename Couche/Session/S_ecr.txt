@@ -1,17 +1,11 @@
-Google.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 99 }
-Google.exe a réussi à se connecter au reddit.exe, adresse de provenance: 99, adresse destination: 42 Etat: connexion_etablie
-Google.exe est déconnecté du  reddit.exe
+Youtube.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 34 }
+Youtube.exe a réussi à se connecter au Walmart.exe, adresse de provenance: 34, adresse destination: 4 Etat: connexion_etablie
+Gmail.exe a recu la primitive  Primitive : N_Disconnect.Ind {  adresseReponse = 81, raison = refus par  le Serveur }
+Gmail.exe{adresse: 81} déconnecté du Firebase.exeadresse de provenance 248, Raison: refus par  le Serveur
+Microsoft.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 179 }
+Microsoft.exe a réussi à se connecter au reddit.exe, adresse de provenance: 179, adresse destination: 100 Etat: connexion_etablie
+Gmail.exe a recu la primitive  Primitive : N_Disconnect.Ind {  adresseReponse = 81, raison = refus par  le Serveur }
+Gmail.exe{adresse: 81} déconnecté du Firebase.exeadresse de provenance 248, Raison: refus par  le Serveur
+Youtube.exe est déconnecté du  Walmart.exe
 , Raison: disconnected Closed by Client 
 
-Snapchat.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 137 }
-Snapchat.exe a réussi à se connecter au Firebase.exe, adresse de provenance: 137, adresse destination: 51 Etat: connexion_etablie
-Microsoft.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 55 }
-Microsoft.exe a réussi à se connecter au Ads.exe, adresse de provenance: 55, adresse destination: 119 Etat: connexion_etablie
-Microsoft.exe est déconnecté du  Ads.exe
-, Raison: disconnected Closed by Client 
-
-Snapchat.exe est déconnecté du  Firebase.exe
-, Raison: disconnected Closed by Client 
-
-Microsoft.exe a recu la primitive  Primitive :N_Connect.Conf {  adresseReponse = 55 }
-Microsoft.exe a réussi à se connecter au Ads.exe, adresse de provenance: 55, adresse destination: 119 Etat: connexion_etablie

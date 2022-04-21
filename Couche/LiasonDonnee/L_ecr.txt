@@ -1,7 +1,3 @@
-Envoi du Paquet d'Appel {  numeroConnexion= 1, typeDePaquet= 00001011 adresseSource = 99, adrDestination = 42 }
-Envoi du PaquetIndLiberation {  numeroConnexion= 1, typeDePaquet= 00000001 adrSource = 99, adrDestination = 42, raison = ET terminer la liaison de donne' }
-Envoi du Paquet d'Appel {  numeroConnexion= 2, typeDePaquet= 00001011 adresseSource = 137, adrDestination = 51 }
-Envoi du Paquet d'Appel {  numeroConnexion= 3, typeDePaquet= 00001011 adresseSource = 55, adrDestination = 119 }
-Envoi du PaquetIndLiberation {  numeroConnexion= 3, typeDePaquet= 00000001 adrSource = 55, adrDestination = 119, raison = ET terminer la liaison de donne' }
-Envoi du PaquetIndLiberation {  numeroConnexion= 2, typeDePaquet= 00000001 adrSource = 137, adrDestination = 51, raison = ET terminer la liaison de donne' }
-Envoi du Paquet d'Appel {  numeroConnexion= 4, typeDePaquet= 00001011 adresseSource = 55, adrDestination = 119 }
+Envoi du Paquet d'Appel {  numeroConnexion= 1, typeDePaquet= 00001011 adresseSource = 34, adrDestination = 4 }
+Envoi du Paquet d'Appel {  numeroConnexion= 2, typeDePaquet= 00001011 adresseSource = 179, adrDestination = 100 }
+Envoi du PaquetIndLiberation {  numeroConnexion= 1, typeDePaquet= 00000001 adrSource = 34, adrDestination = 4, raison = ET terminer la liaison de donne' }

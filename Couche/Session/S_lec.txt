@@ -1,9 +1,9 @@
-Google.exe       reddit.exe       DATA Computer is a
-Microsoft.exe       Ads.exe       DATA Phone is b
-Snapchat.exe       Firebase.exe       DATA Tablet is cc
-Google.exe       reddit.exe       LIB
-Microsoft.exe       Ads.exe       LIB
-Snapchat.exe       Firebase.exe       LIB
-Google.exe       reddit.exe       CONNECT
-Microsoft.exe       Ads.exe       CONNECT
-Snapchat.exe       Firebase.exe       CONNECT
+Youtube.exe       Walmart.exe       DATA Computer is a
+Microsoft.exe       reddit.exe       DATA Phone is b
+Gmail.exe       Firebase.exe       DATA Tablet is cc
+Youtube.exe       Walmart.exe       LIB
+Microsoft.exe       reddit.exe       LIB
+Gmail.exe       Firebase.exe       LIB
+Youtube.exe       Walmart.exe       CONNECT
+Microsoft.exe       reddit.exe       CONNECT
+Gmail.exe       Firebase.exe       CONNECT
